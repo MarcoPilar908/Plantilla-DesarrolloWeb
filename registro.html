@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+	<div id="contenidoRegistro">
+	<div class="container">
+  		<section class="main row">
+      	<div class="form-group com-xs-12 col-sm-8 col-md-8 col-lg-12">
+    		  <label type="text" for="inputlg">Nombre:</label>
+    		  <input class="form-control input-lg" placeholder="Ej. Pérez López Juan" required>
+    		  <div id="selector" >
+    		  	<label type="text" for="inputlg">Oferta de agrado:</label>
+    		 	 <select onchange="" id="select" name="opc" class="form-control input-lg">
+					<option value="0" style="width : 265px; height: 26px" class="form-control input-lg">Selecciona una opción...</option>
+					<option value="1" class="form-control input-lg">Ponencia de traductores</option>
+					<option value="2" class="form-control input-lg">Internet de las Cosas</option> 
+					<option value="3" class="form-control input-lg">E-comerce</option> 
+				</select>
+	 		  </div>
+     		 <label for="inputlg">Teléfono:</label>
+     		 <input type="text" class="form-control input-lg" pattern="[0-9]+" maxlength="12" minlength="10" placeholder="Ingrese su teléfono" required="">
+     		 <label for="inputlg">Correo:</label>
+      		 <input type="email" class="form-control input-lg" placeholder="Ej. juan@gmail.com" required>
+     		 <label for="inputlg">Dirección:</label>
+      		 <input class="form-control input-lg" placeholder="Ingrese su dirección" required>
+      	</div>
+  		</section><hr>
+  		<div class="row">
+        <div class="col-xs-2 col-md-4 col-lg-6">
+             <button type="button" class="btn btn-warning btn-lg" style="width : 245px; height: 50px">Limpiar formulario</button>
+        </div>
+         <div class="col-xs-2 col-md-4 col-lg-6">
+             <button type="button" class="btn btn-success btn-lg" style="width : 245px; height: 50px">Enviar</button>
+        </div>
+      </div>
+  	</div>
+	</div>
+</body>
+<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<script src="js/accionMenu.js"></script>
+</html>

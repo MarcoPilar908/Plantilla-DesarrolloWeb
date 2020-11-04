@@ -5,7 +5,7 @@ body {
 }
 .topnav {
   overflow: hidden;
-  background-color: #CDCDCB;/*#667*/
+  background-color: #CDCDCA;/*#667*/
   flex-grow: 1 !important;
   position: sticky !important;
   z-index: 1;
@@ -61,4 +61,10 @@ body {
   }
 
 
+}
+header{
+  background-color:#66b3ff;
+}
+footer#pie{
+  background-color:#ffd966;
 }
